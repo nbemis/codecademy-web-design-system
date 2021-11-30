@@ -4,6 +4,20 @@ section{
   width: 70%;
   height: 400px;
   margin: 15px auto;
+  padding: 10px;
+}
+
+h2{
+  font-weight: 500px;
+  font-size: 18px;
+}
+
+header h2{
+  margin: 20px 0px;
+}
+
+p{
+  margin: 20px 0px;
 }
 
 /* header */
@@ -13,9 +27,11 @@ header{
 
 /* color section */
 .color-box{
-  width: 150px;
-  height: 150px;
+  width: 32%;
+  /*height: 150px;*/
+  margin: 20px auto;
   display: inline-block;
+  text-align: center;
 }
 
 #purple-box{
