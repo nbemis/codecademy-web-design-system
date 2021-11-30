@@ -1,0 +1,42 @@
+/*universal styles*/
+section{
+  border: 2px solid grey;
+  width: 70%;
+  height: 400px;
+  margin: 15px auto;
+}
+
+/* header */
+header{
+
+}
+
+/* color section */
+.color-box{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+#purple-box{
+background-color: #c5168d;
+}
+
+#dark-green-box{
+background-color: #00ab67;
+}
+
+#light-green-box{
+background-color: #c1d72d;
+}
+
+#yellow-box{
+background-color: #fab819;
+}
+
+
+/* font section */
+
+
+
+/* heading section */
