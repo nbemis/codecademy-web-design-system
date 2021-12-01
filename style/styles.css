@@ -11,12 +11,26 @@ body{
   margin: 0 10%;
 }
 
-h2{
-  font-weight: 500px;
-  font-size: 18px;
+.h1, h1{
+  Font-weight: 400;
+  Font-size: 26px;
+  Font-family: 'Abril Fatface', cursive;
 }
 
-header h2{
+.h2, h2{
+  font-weight: 500px;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+}
+
+.p, li{
+  Font-weight: 400;
+  Font-size: 14px;
+  Font-family: 'Work Sans', sans-serif;
+}
+
+
+h3, header h2{
   margin: 20px 0px;
 }
 
@@ -26,8 +40,8 @@ p{
 }
 
 /* header */
-header{
-
+header h1{
+margin: 20px 0;
 }
 
 /* color section */
@@ -93,3 +107,8 @@ background-color: #fab819;
 
 
 /* heading section */
+
+ul{
+  padding-left: 30px;
+}
+
