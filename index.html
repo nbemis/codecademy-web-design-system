@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web-Design-System</title>
+
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Work+Sans&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -18,10 +25,22 @@
         <h2>Colors</h2>
       </header>
       <div id="color-container">
-        <div class="color-box" id=""></div>
-        <div class="color-box" id=""></div>
-        <div class="color-box" id=""></div>
-        <div class="color-box" id=""></div>
+        <div class="color-box" id="purple-box">
+          <p>Dino Purple</p>
+          <p>#c5168d</p>
+        </div>
+        <div class="color-box" id="dark-green-box">
+          <p>Scaly Green</p>
+          <p>#00ab67</p>
+        </div>
+        <div class="color-box" id="light-green-box">
+          <p>Acid Green</p>
+          <p>#c1d72d</p>
+        </div>
+        <div class="color-box" id="yellow-box">
+          <p>Friendship Yellow</p>
+          <p>#fab819</p>
+        </div>
       </div>
     </section>
     <section>
@@ -29,37 +48,53 @@
         <h2>Fonts</h2>
       </header>
       <div id="font-container">
-        <div class="font-box"></div>
-        <div class="font-box"></div>
-        <div class="font-box"></div>
+        <div class="font-box">
+          <p class="abril-fatface underline h2">Abril Fatface</p>
+          <p class="abril-fatface regular">The quick brown fox jumps over the lazy dog.</p>
+          <p class="abril-fatface italic">The quick brown fox jumps over the lazy dog.</p>
+          <p class="abril-fatface bold">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-box">
+          <p class="merriweather underline h2">Merriweather</p>
+          <p class="merriweather regular">The quick brown fox jumps over the lazy dog.</p>
+          <p class="merriweather italic">The quick brown fox jumps over the lazy dog.</p>
+          <p class="merriweather bold">The quick brown fox jumps over the lazy dog.</p>
+
+        </div>
+        <div class="font-box">
+          <p class="work-sans underline h2">Work Sans</p>
+          <p class="work-sans regular">The quick brown fox jumps over the lazy dog.</p>
+          <p class="work-sans italic">The quick brown fox jumps over the lazy dog.</p>
+          <p class="work-sans bold">The quick brown fox jumps over the lazy dog.</p>
+        </div>
       </div>
     </section>
     <section>
       <header>
         <h2>Text Styles</h2>
       </header>
-      <h3>H1: Main page Heading</h3>
+      <h3 class="h1">H1: Main page Heading</h3>
 
       <ul>
-        <li>item-1</li>
-        <li>item-1</li>
-        <li>item-1</li>
+        <li>Font-weight: 400</li>
+        <li>Font-size: 26px</li>
+        <li>Font-family: Abril Fatface</li>
       </ul>
 
-      <h3>H2: Subheading</h3>
+      <h3 class="h2">H2: Subheading</h3>
 
       <ul>
-        <li>item-1</li>
-        <li>item-1</li>
-        <li>item-1</li>
+        <li>Font-weight: 500</li>
+        <li>Font-size: 18px</li>
+        <li>Font-family: Merriweather </li>
       </ul>
 
-      <h3>P: paragraph text</h3>
+      <h3 class="p">P: Paragraph text</h3>
 
       <ul>
-        <li>item-1</li>
-        <li>item-1</li>
-        <li>item-1</li>
+        <li>Font-weight: 400</li>
+        <li>Font-size: 14px</li>
+        <li>Font-family: Work Sans</li>
       </ul>
 
     </section>

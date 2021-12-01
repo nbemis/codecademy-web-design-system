@@ -1,0 +1,114 @@
+/*universal styles*/
+section{
+  border: 2px solid grey;
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+body{
+  margin: 0 10%;
+}
+
+.h1, h1{
+  Font-weight: 400;
+  Font-size: 26px;
+  Font-family: 'Abril Fatface', cursive;
+}
+
+.h2, h2{
+  font-weight: 500px;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+}
+
+.p, li{
+  Font-weight: 400;
+  Font-size: 14px;
+  Font-family: 'Work Sans', sans-serif;
+}
+
+
+h3, header h2{
+  margin: 20px 0px;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  margin: 20px 0px;
+}
+
+/* header */
+header h1{
+margin: 20px 0;
+}
+
+/* color section */
+.color-box{
+  width: 32%;
+  /*height: 150px;*/
+  margin: 20px auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#purple-box{
+background-color: #c5168d;
+}
+
+#dark-green-box{
+background-color: #00ab67;
+}
+
+#light-green-box{
+background-color: #c1d72d;
+}
+
+#yellow-box{
+background-color: #fab819;
+}
+
+
+/* font section */
+.font-box{
+  width: 45%;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+.abril-fatface{
+  font-family: 'Abril Fatface', cursive;
+}
+
+.work-sans{
+  font-family: 'Merriweather', serif;
+}
+
+.merriweather{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.regular{
+  font-style: normal;
+}
+
+.underline{
+  text-decoration: underline ;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+/* heading section */
+
+ul{
+  padding-left: 30px;
+}
+
